@@ -12,9 +12,10 @@
     <header>
 		<!-- Nav is a sematic tag page that aids accessibility -->
         <div class="skip"><a href="#skiphere">Skip to Main Content</a></div>
-		<nav>
+		<nav class>
 			<ul>            
 				<!-- Since I am on the index file I added class = action to the link to index. -->
+                <!-- <li><a href="#skiphere">Skip</a></li> -->
 				<li><a href = "index.html" >About Us</a></li>
 				<li class= "active"><a href = "utah.html">Utah</a></li>
 				<li><a href = "iceland.html">Iceland</a></li>
@@ -26,19 +27,19 @@
 		
 	</header>
 
+    
     <main class = "container" id= "mc">
-
             <div class = "utah">
-                <h1> Utah and Nevada Trip</h1>
+                <h1> Utah </h1>
             </div>
-
+        
             <div class = "bryceText">
                 <h2>Bryce Canyon National Park</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-                     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                     volu.</p>
+                <p> Bryce Canyon National Park was my favorite location on the trip. It is full of rich
+                    geography unlike anything I have ever seen. We went on a rainy day (as I am sure you can see from our
+                    raincoats) which added to the serenity of the environment. We completed multiple smaller hikes through this park
+                    including Sunrise Point, Wall Street and Queens Garden Trail.
+                </p>
             </div>
             <div class = "bryceImg" id = "skiphere">
                 <img src="images/brycehike.JPG" alt = "Hike through bryce canyon">
@@ -55,31 +56,26 @@
             
 
             <button class="br" onclick="plusDivs(-1)">&#10094;</button>
-            <!-- <button class="bl" onclick="plusDivs(+1)">&#10095;</button> -->
-
-            <!-- <img class = bryceImg alt = "Hike through bryce canyon"> -->
 
             <div class = "zionText">
                 <h2>Zion National Park</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                    volu.</p>
+                <p> This photo represents my favorite hike that we completed at Zion: Angels Landing. This trail is not for the weak.
+                    It has an elevation gain of 1640 feet in 5 miles. It takes about 4 hours to complete and includes thin stretches where you
+                    have to walk along a steep cliff face with nothing but a chain to hold on to. This hike was especially difficult for me since 
+                    I had pneumonia at the time, but the view made it worthwhile!
+                </p>
             </div>
             <div class = "ZionImg" id = "zbook">
                 <img src = "images/angels.JPG" alt = "View from Angels Landing hike in Zion">
                 <!-- <img src = "images/narrows.JPG" alt = "My family on the narrows river hike"> -->
-
             </div>
 
             <div class = "Moab">
                 <h2>Moab Utah</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                    volu.</p>
+                <p> Our visit to Moab was eventful to say the least. We went toward the end of our trip when there was heavy rain in the area. 
+                    Unfortunately for us, we got caught in a flash flood and were trapped in a store for a few hours. The water rushed in quickly and we
+                    did our best to block the door from a stream of sticks and mud. Luckily nobody got hurt and we were able to help the store owner save most of her merchandise.
+                </p>
             </div>
             <div class = "PCImg">
                 <img src = "images/flood.JPG" alt = "Flash flood in Moab Utah">
@@ -87,11 +83,10 @@
 
             <div class = "archesTxt">
                 <h2>Arches National Park</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                    volu.</p>
+                <p>
+                    Arches was comprise of fairly easy hikes that were flat and short in duration. I did not particularly find it that appealing, but my dad really enjoyed it.
+                    This photo was taken in front of the famous double arches. The arches at this park become weaker and thinner over time due to erosion.
+                </p>
             </div>
             <div class = "archesImg" id = "abook">
                 <img src = "images/arches.JPG" alt = "Double arch in Arches National Park">
@@ -99,11 +94,9 @@
 
             <div class = "vegasText">
                 <h2>Las Vegas Nevada</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                    volu.</p>
+                <p> We went to Las Vegas in the beginning of our trip when we flew into Nevada. We mainly walked along the strip but we also visited multiple
+                    casinos. I have always wanted to try the roulette table and actually won $200 off of a $5 bet. I am proud to say I made it in Vegas.
+                </p>
             </div>
             <div class = "vegasImg" id = "vbook">
                 <img src = "images/TomSlots.JPG" alt = "Tom playing roulette in Vegas">
@@ -133,5 +126,11 @@
             </div>
     </main>
     <script src = "js/java.js"></script>
+    <footer>
+        <pre>
+                        Abigail Finn
+            University of Michigan School of Information.
+        </pre>
+    </footer>
 </body>
 </html>
