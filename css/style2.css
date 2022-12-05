@@ -289,7 +289,7 @@ header, footer{
 
 .ice h1, .introPhoto h1, .utah h1{
     color:black;
-    background-color:rgba(255, 255, 255, 0.8);
+    background-color:rgba(255, 255, 255, 0.9);
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     width: 250px;
