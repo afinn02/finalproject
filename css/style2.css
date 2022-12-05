@@ -1,19 +1,4 @@
 
-@media screen and (prefers-reduced-motion: reduce){
-    html{
-        scroll-behavior: auto; /* Removes scroll animation */
-    }
-  
-    .skip a{
-      -webkit-transition: none;
-      transition: none;        
-     }
-  
-    /*Turn off parallax*/
-    header{
-      background-attachment: initial;
-    }
-  }
 
 /* MAIN PAGE */
 img{
@@ -23,7 +8,7 @@ img{
 /* everything with image background repeats */
 body.fam, .introPhoto, .utah, .ice{
     background-repeat: no-repeat;
-    background-attachment: relative;    
+    background-attachment: initial;    
     background-position: center;  
     background-size: cover; 
 }
@@ -621,7 +606,21 @@ body.icelandbody{
     top: 20px;
 }
 
-
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto; /* Removes scroll animation */
+    }
+  
+    .skip a{
+      -webkit-transition: none;
+      transition: none;        
+     }
+  
+    /*Turn off parallax*/
+    body.fam, .introPhoto, .utah, .ice{
+      background-attachment: initial;
+    }
+  }
 
 
 
